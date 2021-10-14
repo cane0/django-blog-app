@@ -1,0 +1,5 @@
+This is a blog web application developed using the django framework.
+The app allows the user to register and login, create, modify and delete posts and view other people posts
+As we know python is an open source programming language that is multipurpose
+This web application can run on linux as easily as mac and windows, meaning it is flexible
+To start the app, we type the command, "python manage.py runserver" on the homefolder of the app and we can open the app on our browser as shown on the screenshots provided.

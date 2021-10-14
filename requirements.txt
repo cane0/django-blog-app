@@ -1,0 +1,6 @@
+django
+django-heroku
+django-crispy-forms
+django-model-utils
+Pillow
+sqlparse

@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+{% block content %}
+	<h1>Follower list</h1>
+	{% for follows in follo %}
+		<article class="media content-section">
+			<div class="media-body">
+				<div class="article-metadata">
+				  <a class="mr-2" href="{{ follows.page_url }}" target="_blank">{{ follows.Username }}</a>
+				  <small class="text-muted">{{ follows.is_following }}</small>
+				</div>
+				<h2><a class="article-title">{{ follows.Name }}</a></h2>
+				<p class="article-content">{{ follows.is_verified }}</p>
+			</div>
+		</article>
+	{% endfor %}
+{% endblock content %}
