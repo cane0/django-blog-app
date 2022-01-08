@@ -1,0 +1,5 @@
+ Blog Web Application
+A robust and secure web application built using the django framework, python, HTML,
+Javascript, and Bootstrap. The web app let’s users perform all the basic functions of a
+simple blog. This project is still undergoing work and some new functionalities are still
+added but it works perfectly already
